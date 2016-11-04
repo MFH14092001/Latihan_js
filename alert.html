@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+
+<title></title>
+
+</head>
+
+<body>
+<center>
+<h1 style="color:lime">Contoh Alert JS</h1>
+
+<script type="text/javascript">
+	//direct alert
+	alert('Website Sutan Bhatoegana');
+	alert('Website Khusus Orang Tampan');
+	
+
+</script>
+<button onclick="alert('Website Sutan Bhatoegana')"">
+Click
+</button>
+
+<button onclick="alert_custom()">
+	Click Function Event
+</button>
+<script type="text/javascript">
+	function alert_custom(){
+		alert('Jomblo Ya ?');
+		alert('Ngaku Aja Lu !');
+		if(confirm('Mau Pertanyaan Menyakitkan Lagi ?')){
+			alert_custom();
+		}else{
+			alert('selsesai');
+		}
+	}
+</script>
+</center>
+
+
+</body>
